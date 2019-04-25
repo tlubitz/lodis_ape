@@ -10,6 +10,17 @@
 	opacity:0.5;
     }
 
+    .opac {
+	background:rgba(0,0,0);
+	z-index:3;
+	line-height:1;
+    }
+    
+    #video2 {
+	opacity:0.5;
+	max-width:100%;
+    }
+    
     #video2_sect {
 	padding: 0;
     }
@@ -38,10 +49,9 @@
 
 	max-width: 50%;
     }
+
     
-    #video2 {
-	max-width:100%;
-    }
+
 
     .custom-menu-item-title {
 	white-space:normal!important;
