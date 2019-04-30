@@ -25,6 +25,13 @@
 	padding: 0;
     }
 
+    .dsgvo > a {
+	font-size:18px;
+	color:white!important;
+	padding: 10px;
+	font-family: 'Dosis', sans-serif;
+    }
+    
     h2.stay {
 	color: #212529!important;
     }
