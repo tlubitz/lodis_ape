@@ -36,7 +36,11 @@
 	color: black;
 
     }
-   
+
+    .rose-spacer {
+	margin-bottom:30px;
+    }
+    
     .event_time {
 	font-family: 'Dosis', regular;
 	font-size: 18pt;
