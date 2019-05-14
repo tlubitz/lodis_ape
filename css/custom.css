@@ -10,6 +10,57 @@
 	opacity:0.5;
     }
 
+    .events {
+	padding-bottom:50px;
+    }
+    
+    .event_col {
+	float:left;
+    }
+
+    .event_date {
+	font-family: 'Dosis', bold;
+	font-size: 18pt;
+	color: #c9a268;
+	letter-spacing: 0;
+	margin-bottom:0;
+	padding-right:15px;
+    }
+
+    .event_name {
+	letter-spacing: 0;
+	margin:0;
+	padding-right:15px;
+	font-family: 'Dosis', bold;
+	font-size: 18pt;
+	color: black;
+
+    }
+   
+    .event_time {
+	font-family: 'Dosis', regular;
+	font-size: 18pt;
+	color: black;
+	letter-spacing: 0;
+	margin-bottom:0;
+	padding-right:15px;
+	font-weight:400;
+    }
+
+    .old {
+	color: rgba(0,0,0,0.6)!important;
+    }
+    
+    .divider {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: -1em;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+    }
+    
     .opac {
 	background:rgba(0,0,0);
 	z-index:3;
@@ -99,6 +150,10 @@
     .custom-working-hours-item {
 	flex-basis:50%!important;
 	max-width:50%!important;
+    }
+
+    .new-height {
+	padding: 250px 0!important;
     }
     
     #amel_col {

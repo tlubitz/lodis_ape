@@ -1,564 +1,588 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- Basic -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+    
+    <title>Lodis Ape – Die rollende Weinbar</title>	
+    
+    <meta name="description" content="Lodis Ape - Die rollende Weinbar">
+    <meta name="author" content="whitepaper.com">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/demos/barber/icons/icon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700" rel="stylesheet" type="text/css">
+    
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="vendor/animate/animate.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+    
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+    
+    <!-- Demo CSS -->
+    <link rel="stylesheet" href="css/demos/demo-barber.css">
+    
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/skin-barber.css"> 
+    
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
+    
+  </head>
 
-		<title>Lodis Ape – Die rollende Weinbar</title>	
-
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
-
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-
-		<!-- Mobile Metas -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-
-		<!-- Web Fonts  -->
-		<link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700" rel="stylesheet" type="text/css">
-
-		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
-		<link rel="stylesheet" href="vendor/animate/animate.min.css">
-		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
-
-		<!-- Theme CSS -->
-		<link rel="stylesheet" href="css/theme.css">
-		<link rel="stylesheet" href="css/theme-elements.css">
-		<link rel="stylesheet" href="css/theme-blog.css">
-		<link rel="stylesheet" href="css/theme-shop.css">
-
-		<!-- Current Page CSS -->
-		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
-		
-		<!-- Demo CSS -->
-		<link rel="stylesheet" href="css/demos/demo-barber.css">
-
-		<!-- Skin CSS -->
-		<link rel="stylesheet" href="css/skins/skin-barber.css"> 
-
-		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="css/custom.css">
-
-		<!-- Head Libs -->
-		<script src="vendor/modernizr/modernizr.min.js"></script>
-
-	</head>
-    <body data-target="#header" data-spy="scroll" data-offset="100">
-
-        <div class="body">
-            <header id="header" class="header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-                <div class="header-body border-top-0 bg-dark box-shadow-none">
-                    <div class="header-container container">
-                        <div class="header-row">
-                            <div class="header-column d-lg-none">
-                                <div class="header-row">
-                                    <h1 class="font-weight-semibold text-7 mb-0"><a href="demo-barber.html" class="text-decoration-none text-color-light custom-primary-font">Lodis Ape</a></h1>
-                                </div>
-                            </div>
-                            <div class="header-column">
-                                <div class="header-row justify-content-end">
-                                    <div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text justify-content-center">
-                                        <div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
-                                            <nav class="collapse">
-                                                <ul class="nav nav-pills" id="mainNav">
-                                                    <li>
-                                                        <a data-hash class="dropdown-item active" href="#home">Home</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" data-hash data-hash-offset="68" href="#aboutus">LODIS APE</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" data-hash data-hash-offset="68" href="#ourservices">UNSERE LEISTUNGEN</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" data-hash data-hash-offset="68" href="#hours">FAHRPLAN</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" data-hash data-hash-offset="68" href="#prices">AKTUELLE WEINE</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" data-hash data-hash-offset="68" href="#footer">KONTAKT</a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                        <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
-                                        	<i class="fas fa-bars"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            <div role="main" class="main">
-
-              <div id="home" class="slider-container rev_slider_wrapper" style="height: 100vh;">
-
-                  <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'slidercenter', 'speed': 500, 'levels': [2,3,4,5,6,7,8,9,15,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true, 'style': 'arrows-style-1' }}}">
-
-
-                  <ul>
-                    <li class="slide-overlay slide-overlay-level-7" data-transition="fade">
-		      <video autoplay muted loop id="video1">
-			<source src="img/demos/barber/slides/grapes.mp4" type="video/mp4">
-		      </video>				      
-                      <div img src="img/demos/barber/icons/250319-lodisape-Logo-white-300px.png" alt="Lodis Ape Logo" />
-		      
-                      <div class="tp-caption text-color-light font-weight-semibold positive-ls-2"
-                           data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                           data-x="center"
-                           data-y="center"
-                           data-height="['auto']"><img src="img/demos/barber/icons/250319-lodisape-Logo-white-300px.png" alt="Lodis Ape Logo"></div>
-		      
-                      <a class="tp-caption text-color-light"
-                         href="#aboutus"
-                         data-hash
-                         data-hash-offset="68"
-                         data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                         data-x="center"
-                         data-y="bottom" data-voffset="['50','50','50','100']"
-                         data-fontsize="['20','20','20','40']"
-                         data-lineheight="['25','25','25','45']"
-                         data-basealign="slide"><i class="fas fa-chevron-down" style="pointer-events: none;"></i></a>
-		      
-                    </li>
-                  </ul>
+  <body data-target="#header" data-spy="scroll" data-offset="100">
+    <div class="body">
+      <header id="header" class="header-transparent-dark-bottom-border header-transparent-dark-bottom-border-1 header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+        <div class="header-body border-top-0 bg-dark box-shadow-none">
+          <div class="header-container container">
+            <div class="header-row">
+              <div class="header-column d-lg-none">
+                <div class="header-row">
+                  <h1 class="font-weight-semibold text-7 mb-0"><a href="demo-barber.html" class="text-decoration-none text-color-light custom-primary-font">Lodis Ape</a></h1>
                 </div>
               </div>
-	      
-                <div id="aboutus" class="container py-5 my-5">
-                    <div class="row my-sm-5">
-                        <div class="col-lg-6 d-flex align-items-center justify-content-center mb-5 mb-lg-0 pb-sm-5 pb-lg-0 mt-sm-5 mt-lg-0">
-                            <div class="custom-images-position-1 position-relative d-flex align-items-center justify-content-center custom-mobile-scale-1 mb-sm-5 mb-lg-0">
-                                <svg height="100%" width="100%" class="svg-primary opacity-2 position-absolute overflow-visible top-0 left-0">
-                                    <circle cx="50%" cy="50%" r="80%" stroke="#CCC" stroke-width="7" fill="#CCC" class="appear-animation" data-appear-animation="lineProgressAndFill" data-appear-animation-duration="5.5s" />
-                                </svg>
-                                <div class="overflow-hidden position-relative top-0 left-0">
-                                    <img src="img/demos/barber/others/others-1.jpg" class="img-fluid appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1100" data-appear-animation-duration="1.5s" alt="" />
-                                </div>
-                                <div class="overflow-hidden position-absolute top-0 left-0">
-                                    <img src="img/demos/barber/others/others-2.jpg" class="img-fluid appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500" data-appear-animation-duration="1.5s" alt="" />
-                                </div>
-                                <div class="overflow-hidden position-absolute top-0 left-0">
-                                    <img src="img/demos/barber/others/others-3.jpg" class="img-fluid appear-animation" data-appear-animation="maskLeft" data-appear-animation-delay="800" data-appear-animation-duration="1.5s" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="overflow-hidden mb-1">
-                                <h1 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">LODIS APE</h1>
-                            </div>
-                            <h2 class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">eine umgebaute Piaggio Ape & guter Wein</h2>
-                            <h4 class="pr-5 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">Mit unserer umgebauten dreirädrigen Ape rollen wir als rollende Weinbar durch Hamburg, den Speckgürtel, bis hoch an die Küsten Schleswig-Holsteins. 
-Die pfiffige Ape ist mit zwei Weinkühlschränken ausgestattet - es können gut 100 Flaschen Wein gekühlt werden. Der Innenausbau ist mit edlem Holz verziert. Das Design im klassischen Retro-Look gehalten - inklusive auf- und nach oben klappbaren Flügeltüren: lodis ape ist ein echter Hingucker. <p>
-                            <blockquote class="custom-blockquote-style-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
-                                <quote-text class="pr-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">lodis ape - your partner in wine</quote-text>
-                                <footer></footer>
-                            </blockquote>
-                        </div>
+              <div class="header-column">
+                <div class="header-row justify-content-end">
+                  <div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text justify-content-center">
+                    <div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                      <nav class="collapse">
+                        <ul class="nav nav-pills" id="mainNav">
+                          <li>
+                            <a data-hash class="dropdown-item active" href="#home">Home</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" data-hash data-hash-offset="68" href="#aboutus">LODIS APE</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" data-hash data-hash-offset="68" href="#ourservices">UNSERE LEISTUNGEN</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" data-hash data-hash-offset="68" href="#hours">FAHRPLAN</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" data-hash data-hash-offset="68" href="#prices">AKTUELLE WEINE</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" data-hash data-hash-offset="68" href="#footer">KONTAKT</a>
+                          </li>
+                        </ul>
+                      </nav>
                     </div>
+                    <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+                      <i class="fas fa-bars"></i>
+                    </button>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-                <section class="section section-parallax section-height-4 overlay overlay-show overlay-op-7 border-0 m-0 appear-animation opac" data-appear-animation="fadeIn" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '129%'}" data-image-src="img/demos/barber/backgrounds/background-1.jpg">
-                    <div class="container mb-4">
-                        <div class="row justify-content-center">
-                            <div class="col col-lg-9">
-                                <div class="testimonial testimonial-style-2 custom-testimonial-style-1 mb-0">
-                                    <div class="text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-                                       <quote class="custom-blockquote-style-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">"</quote> 
-                                        <blockquote class="custom-blockquote-style-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
-                                
-                                            <quote-text class="text-color-light pr-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">Lebensfreude auf drei Rädern </quote-text>
-                                <footer></footer>
-                            </blockquote>
-                                    
-                                       
-                                    <div class="testimonial-author appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-                                        <h6 class="font-weight-light text-color-light text-3 opacity-7">- Amely Heincke -</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div role="main" class="main">
+        <div id="home" class="slider-container rev_slider_wrapper" style="height: 100vh;">
+	  <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'slidercenter', 'speed': 500, 'levels': [2,3,4,5,6,7,8,9,15,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true, 'style': 'arrows-style-1' }}}">
+	    <ul>
+              <li class="slide-overlay slide-overlay-level-7" data-transition="fade">
+		<video autoplay muted loop id="video1">
+		  <source src="img/demos/barber/slides/grapes.mp4" type="video/mp4">
+		</video>				      
+                <div img src="img/demos/barber/icons/250319-lodisape-Logo-white-300px.png" alt="Lodis Ape Logo" />
+		<div class="tp-caption text-color-light font-weight-semibold positive-ls-2"
+                     data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                     data-x="center"
+                     data-y="center"
+                     data-height="['auto']"><img src="img/demos/barber/icons/250319-lodisape-Logo-white-300px.png" alt="Lodis Ape Logo"></div>
+		      
+                <a class="tp-caption text-color-light"
+                   href="#aboutus"
+                   data-hash
+                   data-hash-offset="68"
+                   data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                   data-x="center"
+                   data-y="bottom" data-voffset="['50','50','50','100']"
+                   data-fontsize="['20','20','20','40']"
+                   data-lineheight="['25','25','25','45']"
+                   data-basealign="slide"><i class="fas fa-chevron-down" style="pointer-events: none;"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+	      
+        <div id="aboutus" class="container py-5 my-5">
+          <div class="row my-sm-5">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center mb-5 mb-lg-0 pb-sm-5 pb-lg-0 mt-sm-5 mt-lg-0">
+              <div class="custom-images-position-1 position-relative d-flex align-items-center justify-content-center custom-mobile-scale-1 mb-sm-5 mb-lg-0">
+                <svg height="100%" width="100%" class="svg-primary opacity-2 position-absolute overflow-visible top-0 left-0">
+                  <circle cx="50%" cy="50%" r="80%" stroke="#CCC" stroke-width="7" fill="#CCC" class="appear-animation" data-appear-animation="lineProgressAndFill" data-appear-animation-duration="5.5s" />
+                </svg>
+                <div class="overflow-hidden position-relative top-0 left-0">
+                  <img src="img/demos/barber/others/others-1.jpg" class="img-fluid appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="1100" data-appear-animation-duration="1.5s" alt="" />
+                </div>
+                <div class="overflow-hidden position-absolute top-0 left-0">
+                  <img src="img/demos/barber/others/others-2.jpg" class="img-fluid appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500" data-appear-animation-duration="1.5s" alt="" />
+                </div>
+                <div class="overflow-hidden position-absolute top-0 left-0">
+                  <img src="img/demos/barber/others/unnamed.gif" class="img-fluid appear-animation" data-appear-animation="maskLeft" data-appear-animation-delay="800" data-appear-animation-duration="1.5s" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="overflow-hidden mb-1">
+                <h1 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">LODIS APE</h1>
+              </div>
+              <h2 class="mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">eine umgebaute Piaggio Ape & guter Wein</h2>
+              <h4 class="pr-5 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">Mit unserer umgebauten dreirädrigen Ape rollen wir als rollende Weinbar durch Hamburg, den Speckgürtel, bis hoch an die Küsten Schleswig-Holsteins. 
+		Die pfiffige Ape ist mit zwei Weinkühlschränken ausgestattet - es können gut 100 Flaschen Wein gekühlt werden. Der Innenausbau ist mit edlem Holz verziert. Das Design im klassischen Retro-Look gehalten - inklusive auf- und nach oben klappbaren Flügeltüren: lodis ape ist ein echter Hingucker.</h4>
+              <blockquote class="custom-blockquote-style-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
+                <quote-text class="pr-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">lodis ape - your partner in wine</quote-text>
+                <footer></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+	
+        <section class="section section-parallax section-height-4 overlay overlay-show overlay-op-7 border-0 m-0 appear-animation opac new-height" data-appear-animation="fadeIn" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '129%'}" data-image-src="img/demos/barber/backgrounds/background-1.jpg">
+          <div class="container mb-4">
+            <div class="row justify-content-center">
+              <div class="col col-lg-9">
+                <div class="testimonial testimonial-style-2 custom-testimonial-style-1 mb-0">
+                  <div class="text-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+                    <quote class="custom-blockquote-style-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">"</quote> 
+                    <blockquote class="custom-blockquote-style-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
+                      <quote-text class="text-color-light pr-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">Lebensfreude auf drei Rädern </quote-text>
+                      <footer></footer>
+                    </blockquote>
+                    <div class="testimonial-author appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+                      <h6 class="font-weight-light text-color-light text-3 opacity-7">- Amely Heincke -</h6>
                     </div>
-                </section>
-
-                <div id="ourservices" class="container py-5 my-5">
-                    <div class="row mt-4 mb-5">
-                        <div class="col text-center text-md-left">
-                            <div class="overflow-hidden mb-1">
-                                <h1 class="mb-0 appear-animation" data-appear-animation="maskUp">OUR SERVICES</h1>
-                            </div>
-                            <div class="overflow-hidden mb-3">
-                                <h2 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Wir beraten Sie gern zu außergewöhnlichen und individuellen Lösungen. Sodass es am Ende heißt: Sie kümmern sich ums Feiern - wir uns um den Wein (Wein oder Sekt?/Champagner oder Cremant? You name it, we bring it).
+                  </div>
+                </div>
+              </div>
+            </div>
+	  </div>
+        </section>
+	
+        <div id="ourservices" class="container py-5 my-5">
+          <div class="row mt-4 mb-5">
+            <div class="col text-center text-md-left">
+              <div class="overflow-hidden mb-1">
+                <h1 class="mb-0 appear-animation" data-appear-animation="maskUp">OUR SERVICES</h1>
+              </div>
+              <div class="overflow-hidden mb-3">
+                <h2 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Wir beraten Sie gern zu außergewöhnlichen und individuellen Lösungen. Sodass es am Ende heißt: Sie kümmern sich ums Feiern - wir uns um den Wein (Wein oder Sekt?/Champagner oder Cremant? You name it, we bring it).
 </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center mb-4">
-                        <div class="col-md-6 text-center mb-md-5">
-                            <img src="img/demos/barber/icons/noun_event_72586_c8a064.png" class="img-fluid mb-3" alt="" />
-                            <h3 class="3 mb-3">Hochzeiten</h3>
-                            <p class="text-3 px-4">Hochzeit: ‚Pour the wine, his/her last name ist mine’ - JGA mit den Mädels/Jungs, Empfang nach der Kirche/dem Standesamt, die Feier am Abend.  </p>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <img src="img/demos/barber/icons/noun_event_1298108_c8a064.png" class="img-fluid mb-3" alt="" />
-                            <h3 class="3 mb-3">Privatfeten</h3>
-                            <p class="text-3 px-4">‚Hoch die Tassen auf der eigenen Terrassen‘ - Runder Geburtstag als Gartenparty. Empfang zu Hause nach der Taufe/der Konfirmation/der Hochzeit. 
- </p>
-                        </div>
-		    </div>
-		    
-		    <div class="row justify-content-center mb-4">
-                      <div class="col-md-6 text-center mb-md-5">
-                        <img src="img/demos/barber/icons/noun_party_117346_c8a064.png" class="img-fluid mb-3" alt="" />
-                        <h3 class="3 mb-3">Firmenfeiern </h3>
-                        <p class="text-3 px-4">Wer arbeiten kann, kann auch feiern! 
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-6 text-center mb-md-5">
+              <img src="img/demos/barber/icons/noun_event_72586_c8a064.png" class="img-fluid mb-3" alt="" />
+              <h3 class="3 mb-3">Hochzeiten</h3>
+              <p class="text-3 px-4">Hochzeit: ‚Pour the wine, his/her last name is mine’ - JGA mit den Mädels/Jungs, Empfang nach der Kirche/dem Standesamt, die Feier am Abend.  </p>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="img/demos/barber/icons/noun_event_1298108_c8a064.png" class="img-fluid mb-3" alt="" />
+              <h3 class="3 mb-3">Privatfeten</h3>
+              <p class="text-3 px-4">‚Hoch die Tassen auf der eigenen Terrassen‘ - Runder Geburtstag als Gartenparty. Empfang zu Hause nach der Taufe/der Konfirmation/der Hochzeit. 
+	      </p>
+            </div>
+	  </div>
+	  
+	  <div class="row justify-content-center mb-4">
+            <div class="col-md-6 text-center mb-md-5">
+              <img src="img/demos/barber/icons/noun_party_117346_c8a064.png" class="img-fluid mb-3" alt="" />
+              <h3 class="3 mb-3">Firmenfeiern </h3>
+              <p class="text-3 px-4">Wer arbeiten kann, kann auch feiern! 
+		<br>- Firmenjubiläum
+		<br>- Sommerfest
+		<br>- Weihnachtsfeier
+	      </p>
+	    </div>
+            <div class="col-md-6 text-center mb-md-5">
+              <img src="img/demos/barber/icons/noun_event_1016557_c8a064.png" class="img-fluid mb-3" alt="" />
+              <h3 class="3 mb-3">Events </h3>
+              <p class="text-3 px-4">Wir bieten eine Alternative zum klassischen Getränke-Catering auf Events, wie:
+		<br>- einer Ausstellungseröffnung
+		<br>- einer Buchpräsentation
+		<br>- Antik- oder Flohmärkten
+		<br>- Osterfeuer  
+	      </p>
+	    </div>
+	  </div>
 
-</br>- Firmenjubiläum
-</br>- Sommerfest
-</br>- Weihnachtsfeier
+	  <section class="section section-parallax section-height-5 overlay overlay-show overlay-op-7 border-0 m-0 appear-animation" data-appear-animation="fadeIn" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '138%'}" id="video2_sect"> <!--< data-image-src="img/demos/barber/backgrounds/vineyard.mp4">-->
+	    <div class="opac">
+	      <video autoplay muted loop id="video2">
+		<source src="img/demos/barber/backgrounds/vineyard.mp4" type="video/mp4">
+	      </video>
+	    </div>
+	    <div class="container" id="video2_cont">
+              <div class="row justify-content-center">
+		<div class="col-lg-9 text-center">
+                  <h2 class="stay text-color-light font-weight-bold custom-tertiary-font ls-0 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Wir reisen um die Welt, um die besten Weine zu entdecken und mitzunehmen. Von Hamburg bis nach Hawaii.</h2>
+		</div>
+              </div>
+	    </div>
+	  </section>
+	  
+	  <section id="hours" class="section section-height-4 bg-light position-relative border-0 m-0">
+	    <div class="container">
+              <div class="row mb-5">
+		<div class="col">
+                  <div class="overflow-hidden mb-1">
+                    <h1 class="text-color-primary font-weight-semibold mb-0 appear-animation" data-appear-animation="maskUp">FAHRPLAN</h1>
+                  </div>
+                  <div class="overflow-hidden mb-3">
+                    <h2 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">MIT UNSERER APE SIND WIR STÄNDIG UNTERWEGS</h2>
+                  </div>
+		</div>
+              </div>
+	      
 
-			</p>
-		      </div>
-                      <div class="col-md-6 text-center mb-md-5">
-                        <img src="img/demos/barber/icons/noun_event_1016557_c8a064.png" class="img-fluid mb-3" alt="" />
-                        <h3 class="3 mb-3">Events </h3>
-                        <p class="text-3 px-4">Wir bieten eine Alternative zum klassischen Getränke-Catering auf Events, wie:
-
-</br>- einer Ausstellungseröffnung
-</br>- einer Buchpräsentation
-</br>- Antik- oder Flohmärkten
-</br>- Osterfeuer  
-			</p>
-		      </div>
-		    </div>
-
-		    <section class="section section-parallax section-height-5 overlay overlay-show overlay-op-7 border-0 m-0 appear-animation" data-appear-animation="fadeIn" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '138%'}" id="video2_sect"> <!--< data-image-src="img/demos/barber/backgrounds/vineyard.mp4">-->
-		      <div class="opac">
-			     <video autoplay muted loop id="video2">
-			       <source src="img/demos/barber/backgrounds/vineyard.mp4" type="video/mp4">
-			     </video>
-		      </div>
-			     <div class="container" id="video2_cont">
-                               <div class="row justify-content-center">
-				 <div class="col-lg-9 text-center">
-                                   <h2 class="stay text-color-light font-weight-bold custom-tertiary-font ls-0 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">Wir reisen um die Welt, um die besten Weine zu entdecken und mitzunehmen. Von Hamburg bis nach Hawaii.</h2>
-				 </div>
-                               </div>
-			     </div>
-			</section>
-			
-			<section id="hours" class="section section-height-4 bg-light position-relative border-0 m-0">
-			  <div class="container">
-                            <div class="row mb-5">
-			      <div class="col">
-                                <div class="overflow-hidden mb-1">
-                                  <h1 class="text-color-primary font-weight-semibold mb-0 appear-animation" data-appear-animation="maskUp">FAHRPLAN</h1>
-                                </div>
-                                <div class="overflow-hidden mb-3">
-                                  <h2 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">MIT UNSERER APE SIND WIR STÄNDIG UNTERWEGS</h2>
-                                </div>
-			      </div>
-                            </div>
-
-			    <div class="row mb-5 pb-4">
-			      <div class="col wh-col">
-                                <div class="custom-working-hours appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
-                                  <div class="custom-working-hours-item">
-                                    <h1 class="mb-4">SAMSTAG<br>20. APRIL</h1>
-                                    <h4>
-                                      <a href="https://www.st-peter-ording.de/vor-ort/veranstaltungen/osterprogramm.html" target="_blank" >Osterfeuer <br>St. Peter Ording<br>// Mehr Infos</a>
-                                    </h4>
-                                    <h4 class="font-weight-normal mb-0"><span class="d-block text-color-dark">11:30 UHR</span> <span class="opacity-6">BIS</span> <span class="d-block text-color-dark">21:30 UHR</span></h4>
-                                  </div>
-                                </div>
-			      </div>
-			      
-			      <div class="col wh-col">
-                                <div class="custom-working-hours appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
-                                  <div class="custom-working-hours-item">
-                                    <h1 class="mb-4">MITTWOCH<br>1. BIS 5. MAI</h1>
-                                    <h4>
-                                      <a href="https://www.gut-basthorst.de/maerkte-veranstaltungen/unsere-maerkte/fruehjahrsmarkt" target="_blank">Frühjahrsmarkt <br>Gut Basthorst<br>// Mehr Infos</a>
-                                    </h4>
-                                    <h4 class="font-weight-normal mb-0"><span class="d-block text-color-dark">11 UHR</span> <span class="opacity-6">BIS</span> <span class="d-block text-color-dark">19 UHR</span></h4>
-                                  </div>
-                                </div>
-
-			      </div>
-                            </div>
-			    
-                            <div class="row">
-			      <div class="col">
-                                <div class="card bg-dark border-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-                                  <div class="card-body d-flex flex-column flex-lg-row align-items-center justify-content-center py-5 my-3">
-                                    <span class="custom-tertiary-font text-color-light font-weight-bold line-height-1 text-7 mr-lg-5 mb-3 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">RESERVATION? CALL US</span>
-                                    <a href="tel:+491729799311" class="custom-primary-font text-decoration-none text-color-light font-weight-bold text-12 line-height-1 mb-1 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1000">+ 49 172 97 99 311</a>
-                                  </div>
-                                </div>
-			      </div>
-                            </div>
-			  </div>
-
-			  <div class="custom-circle-pos-2 position-absolute z-index-1 bottom-0 right-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-plugin-options="{'accY': -600}">
-                            <svg height="456" width="456" class="svg-primary opacity-1 overflow-visible">
-			      <circle cx="228" cy="228" r="228" stroke="#CCC" stroke-width="12" fill="#CCC" />
-                            </svg>
-			  </div>
-			</section>
-
-                <section id="prices" class="section section-height-4 bg-light border-0 position-relative m-0">
-                    <div class="custom-circle-pos-1 position-absolute z-index-1 top-0 left-0 appear-animation" data-appear-animation="fadeInRightShorter" data-plugin-options="{'accY': -500}">
-                        <svg height="362" width="362" class="svg-primary opacity-1">
-                            <circle cx="0" cy="181" r="181" stroke="#CCC" stroke-width="12" fill="#CCC" />
-                        </svg>
-                    </div>
-                    
-                    <div class="container">
-                        <div class="row pb-2 mb-4">
-                            <div class="col">
-                                <div class="overflow-hidden mb-1">
-                                    <h1 class="-rm-right mb-0 appear-animation" data-appear-animation="maskUp">UNSERE AKTUELLEN WEINE</h1>
-                                </div>
-                                <div class="overflow-hidden mb-3">
-                                    <h2 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">LASSEN SIE SICH VON LODI INSPIRIEREN UND VERFÜHREN</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-                                <h3 class="text-color-light custom-font-weight-medium bg-dark text-5 d-inline-block custom-padding-1">ROT</h3>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                        <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Pimenta Preta - Weingut Casa Relvas</h3></div>
-                                        <div class="mx-3 mb-2 opacity-4"></div>
-                                
-                                    </div>
-                                    <div class="custom-menu-item-desc">
-                                        <h4 class="text-2 line-height-4">Rubinrote wilde Beeren und Kirschen. Trocken. Samtig, süffig, saúde</h4>
-                                    </div>
-                                </div>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                        <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Primitivo del Salento - Cantine di Salemi</h3></div>
-                                        <div class="mx-3 mb-2 opacity-4"></div>
-                                    </div>
-                                    <div class="custom-menu-item-desc">
-                                        <h4 class="text-2 line-height-4">Trocken und fruchtig. Brombeere und Schokolade. Kräftig und samtig.</br> Molto Bene und delizioso.</h4> 
-</h4>
-                                    </div>
-                                </div>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                    </div>
-                                </div>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                    </div>
-                                    <div class="custom-menu-item-desc">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
-                                <h3 class="text-color-light custom-font-weight-medium bg-dark text-5 d-inline-block custom-padding-1">WEISS</h3>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                        <div class="custom-menu-item-title"><h3 class="text-transform-none font-weight-semibold text-4 mb-0">Rivaner - Weingut Metzger</h3></div>
-                                        <div class=" mx-3 mb-2 opacity-4"></div>
-                                    </div>
-                                    <div class="custom-menu-item-desc">
-                                        <h4 class="text-2 line-height-4">Toller fruchtiger Geschmack, trocken, wenig Säure - der ideale Begleiter für einen langen Abend.
-</h4>
-                                    </div>
-                                </div>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                        <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Grauburgunder - Weingut Eugen Müller
-</h3></div>
-                                        <div class="mx-3 mb-2 opacity-4"></div>
-                                    </div>
-                                    <div class="custom-menu-item-desc">
-                                        <h4 class="text-2 line-height-4">Ein Grauburgunder, der wie ein Weißburgunder schmeckt - für jeden was dabei. Trocken, fruchtig, lecker. Geht immer. </h4>
-                                    </div>
-                                </div>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                        <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Sauvignon Blanc - Weingut Eugen Müller</h3></div>
-                                        <div class="mx-3 mb-2 opacity-4"></div>
-                                    </div>
-                                    <div class="custom-menu-item-desc">
-                                        <h4 class="text-2 line-height-4">Ein klassischer, stachelbeeriger Sauvignon Blanc. Optimal, wenn einem der Sinn nach einem Glas Wein in der Sonne steht. (Schmeckt aber auch bei Schietwetter). 
-</h4>
-                                    </div>
-                                </div>
-                                <div class="custom-menu-item">
-                                    <div class="custom-menu-item-details">
-                                        <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Weißweinschorle Wilde Lodi - über Geile Weine
-</h3></div>
-                                        <div class="mx-3 mb-2 opacity-4"></div>
-                                    </div>
-                                    <div class="custom-menu-item-desc">
-                                        <h4 class="text-2 line-height-4">Spritzig, pfiffig, gut gekühlt, direkt aus der Glasbuddel, nur 7% Alkohol, vegan. DAS Getränk für den Jahrhundertsommer 2019!
-</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </section>
-
-
-		<footer id="footer" class="border-0 bg-dark mt-0">
-		  <div class="container-fluid px-0">
-		    <div class="row">
-		      
-		      <div class="col-lg-4" id="amel_col">
-			<img id="amel" src="img/demos/barber/others/amel.jpg"></img>
-		      </div>
-		      
-		      <div class="col-lg-4 px-0">
-			<div class="card bg-secondary border-0 h-100">
-			  <div class="card-body text-center p-5 my-3">
-			    <h2 class="font-weight-semibold text-color-light line-height-1 text-15 ls-0 mb-3">LODIS APE</h2>
-			    <hr class="bg-primary mt-5 mb-4">
-			    <ul class="list list-unstyled text-color-light font-weight-semibold custom-fs-1 py-2 m-0">
-			      <li>Jarrestraße 50D</li>  
-			      <li>22303 Hamburg</li>
-			      <li class="mb-0"><a href="mailto:lodi@lodis-ape.com" class="text-color-light">lodi@lodis-ape.com</a></li>
-			    </ul>
-			    <hr class="bg-primary mt-4 mb-4">
-			    <h3 class="text-color-dark font-weight-bold custom-tertiary-font text-5 mb-3">RESERVATION? CALL US</h3>
-			    <a href="tel:+491729799311" class="text-color-light custom-primary-font font-weight-bold text-12">+ 49 172 97 99 311</a>
-			  </div>
-			</div>
-		      </div>
-		      
-		      <div class="col-lg-4 px-0 d-flex align-items-center">
-			<div class="w-100 p-5 mx-3 my-5">
-			  <h3 class="text-color-primary font-weight-semibold text-9 mb-3">KONTAKT</h3>
-			  <h2 class="font-weight-semibold pb-3 mb-4">WIR FREUEN UNS AUF SIE </h2>
-			  <form id="contactForm" class="contact-form form-style-4 form-errors-light custom-form-style-1" action="php/contact-form.php" method="POST">
-			    <input type="hidden" value="Contact Form" name="subject" id="subject">
-			    <div class="form-group col-lg-12 ml-auto my-0">
-			      <div class="contact-form-success alert alert-success d-none" id="contactSuccess">
-				Message has been sent to us.
-			      </div>
-			      
-			      <div class="contact-form-error alert alert-danger d-none" id="contactError">
-				Error sending your message.
-				<span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
-			      </div>
-			    </div>
-			    <div class="form-row">
-			      <div class="form-group col-lg-6">
-				<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control py-2" placeholder="Name" name="name" id="name" required>
-			      </div>
-			      <div class="form-group col-lg-6">
-				<input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control py-2" placeholder="Phone" name="phone" id="phone" required>
-			      </div>
-			    </div>
-			    <div class="form-row">
-			      <div class="form-group col">
-				<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control py-2" placeholder="E-mail" name="email" id="email" required>
-			      </div>
-			    </div>
-			    <div class="form-row">
-			      <div class="form-group col">
-				<textarea maxlength="5000" data-msg-required="Please enter your message." rows="4" class="form-control" placeholder="Message" name="message" id="message" required></textarea>
-			      </div>
-			    </div>
-			    <input type="submit" value="SEND" class="custom-btn-style-1 btn btn-dark font-weight-bold text-uppercase btn-px-5 py-3" data-loading-text="Loading...">
-			  </form>
-			</div>
-		      </div>
-		    </div>
-		  </div>
-		  
-		  <div class="footer-copyright bg-dark py-5">
-		    <div class="container py-2">
-		      <div class="row py-4">
-			<div class="col-12 text-center dsgvo">
-			  <a href="impressum.html">Impressum</a>
-			  <a href="dsgvo.html">Datenschutzerklärung</a>
-			</div>
-			<div class="col-12 text-center">
-			  <p class="text-color-light font-weight-light opacity-4 mb-0">Copyrights © 2019 All Rights Reserved Amely Heincke</p>
-			</div>
-		      </div>
-		    </div>
-		  </div>
-		</footer>
+	      <div class="events">
+		<hr class="divider">
+		<div class="row">
+	          <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
+                    <h1 class="event_col event_date ">Di, 2. Juli</h1>
+		    <a href="https://www.st-peter-ording.de/eventsuche/veranstaltungen/veranstaltung/benefiz-showkonzert-der-big-band-der-bundeswehr-1928.html" target="_blank">
+		      <h1 class="event_col event_name">
+			Benefiz-Showkonzert der Big Band der Bundeswehr in St. Peter Ording
+                      </h1>
+		    </a>
+                    <h1 class="event_col event_time ">18 UHR BIS 23 UHR</h1>
+                  </div>
+		</div>
+		
+		<hr class="divider">
+		<div class="row">
+	          <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
+                    <h1 class="event_col event_date old">Sa, 20. April</h1>
+		    <a href="https://www.st-peter-ording.de/vor-ort/veranstaltungen/osterprogramm.html" target="_blank">
+		      <h1 class="event_col event_name old">
+			Osterfeuer St. Peter Ording // Mehr Infos
+                      </h1>
+		    </a>
+                    <h1 class="event_col event_time old">11:30 UHR BIS 21:30 UHR</h1>
+                  </div>
+		</div>
+		
+		<hr class="divider">
+		
+		<div class="row event_row">
+                  <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
+		    <h1 class="event_col event_date old">Mi, 1. bis 5. Mai</h1>
+		    <a href="https://www.gut-basthorst.de/maerkte-veranstaltungen/unsere-maerkte/fruehjahrsmarkt" target="_blank">
+                      <h1 class="event_col event_name old">
+			Frühjahrsmarkt Gut Basthorst // Mehr Infos
+                      </h1>
+		    </a>
+                    <h1 class="event_col event_time old">11 UHR BIS 19 UHR</h1>
+                  </div>
 		</div>
 
-		<!-- Vendor -->
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
-		<script src="vendor/popper/umd/popper.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="vendor/common/common.min.js"></script>
-		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
-		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-		<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-		<script src="vendor/isotope/jquery.isotope.min.js"></script>
-		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script src="vendor/vide/jquery.vide.min.js"></script>
-		<script src="vendor/vivus/vivus.min.js"></script>
-		<script src="vendor/instafeed/instafeed.min.js"></script>
-		
-		<!-- Theme Base, Components and Settings -->
-		<script src="js/theme.js"></script>
-		
-		<!-- Current Page Vendor and Views -->
-		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<hr class="divider">
+	      </div>
+	    </div>
+	    
+	    <div class="row">
+	      <div class="col">
+                <div class="card bg-dark border-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+                  <div class="card-body d-flex flex-column flex-lg-row align-items-center justify-content-center py-5 my-3">
+                    <span class="custom-tertiary-font text-color-light font-weight-bold line-height-1 text-7 mr-lg-5 mb-3 mb-lg-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">RESERVATION? CALL US</span>
+                    <a href="tel:+491729799311" class="custom-primary-font text-decoration-none text-color-light font-weight-bold text-12 line-height-1 mb-1 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="1000">+ 49 172 97 99 311</a>
+                  </div>
+                </div>
+	      </div>
+            </div>
+	    
+	    <div class="custom-circle-pos-2 position-absolute z-index-1 bottom-0 right-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-plugin-options="{'accY': -600}">
+              <svg height="456" width="456" class="svg-primary opacity-1 overflow-visible">
+		<circle cx="228" cy="228" r="228" stroke="#CCC" stroke-width="12" fill="#CCC" />
+              </svg>
+	    </div>
+	  </section>
+	  
+          <section id="prices" class="section section-height-4 bg-light border-0 position-relative m-0">
+            <div class="custom-circle-pos-1 position-absolute z-index-1 top-0 left-0 appear-animation" data-appear-animation="fadeInRightShorter" data-plugin-options="{'accY': -500}">
+              <svg height="362" width="362" class="svg-primary opacity-1">
+                <circle cx="0" cy="181" r="181" stroke="#CCC" stroke-width="12" fill="#CCC" />
+              </svg>
+            </div>
+            
+            <div class="container">
+              <div class="row pb-2 mb-4">
+                <div class="col">
+                  <div class="overflow-hidden mb-1">
+                    <h1 class="-rm-right mb-0 appear-animation" data-appear-animation="maskUp">UNSERE AKTUELLEN WEINE</h1>
+                  </div>
+                  <div class="overflow-hidden mb-3">
+                    <h2 class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">LASSEN SIE SICH VON LODI INSPIRIEREN UND VERFÜHREN</h2>
+                  </div>
+                </div>
+              </div>
 
-		<!-- Current Page Vendor and Views -->
-		<script src="js/views/view.contact.js"></script>
-		
-		<!-- Demo -->
-		<script src="js/demos/demo-barber.js"></script>
+              <div class="row">
+                <div class="col-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
+                  <h3 class="text-color-light custom-font-weight-medium bg-dark text-5 d-inline-block custom-padding-1">ROT & ROSÉ</h3>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                      <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Pimenta Preta - Weingut Casa Relvas</h3></div>
+                      <div class="mx-3 mb-2 opacity-4"></div>
+                    </div>
+                    <div class="custom-menu-item-desc">
+                      <h4 class="text-2 line-height-4">Rubinrote wilde Beeren und Kirschen. Trocken. Samtig, süffig, saúde</h4>
+                    </div>
+                  </div>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                      <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Primitivo del Salento - Cantine di Salemi</h3></div>
+                      <div class="mx-3 mb-2 opacity-4"></div>
+                    </div>
+                    <div class="custom-menu-item-desc">
+                      <h4 class="text-2 line-height-4">Trocken und fruchtig. Brombeere und Schokolade. Kräftig und samtig.<br> Molto Bene und delizioso.</h4> 
+		    </div>
+		  </div>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                      <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Rosé Audimax - Weingut Studier</h3></div>
+                      <div class="mx-3 mb-2 opacity-4"></div>
+                    </div>
+                    <div class="custom-menu-item-desc">
+                      <h4 class="text-2 line-height-4">Frisch-fruchtiger unkomplizierter Begleiter - Himbeer’, Erdbeer’, wunderbär!<br> Den schenk ich ein zum glücklich sein (nicht nur an Wochenend' und Sonnenschein)</h4> 
+		    </div>
+		  </div>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                    </div>
+                  </div>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                    </div>
+                    <div class="custom-menu-item-desc">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
+                  <h3 class="text-color-light custom-font-weight-medium bg-dark text-5 d-inline-block custom-padding-1">WEISS</h3>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                      <div class="custom-menu-item-title">
+			<h3 class="text-transform-none font-weight-semibold text-4 mb-0">Rivaner - Weingut Metzger</h3>
+		      </div>
+                      <div class=" mx-3 mb-2 opacity-4"></div>
+                    </div>
+                    <div class="custom-menu-item-desc">
+                      <h4 class="text-2 line-height-4">Toller fruchtiger Geschmack, trocken, wenig Säure - der ideale Begleiter für einen langen Abend.</h4>
+                    </div>
+                  </div>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                      <div class="custom-menu-item-title">
+			<h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Grauburgunder - Weingut Eugen Müller</h3>
+		      </div>
+                      <div class="mx-3 mb-2 opacity-4"></div>
+                    </div>
+                    <div class="custom-menu-item-desc">
+                      <h4 class="text-2 line-height-4">Ein Grauburgunder, der wie ein Weißburgunder schmeckt - für jeden was dabei. Trocken, fruchtig, lecker. Geht immer. </h4>
+                    </div>
+                  </div>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                      <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Sauvignon Blanc - Weingut Eugen Müller</h3></div>
+                      <div class="mx-3 mb-2 opacity-4"></div>
+                    </div>
+                    <div class="custom-menu-item-desc">
+                      <h4 class="text-2 line-height-4">Ein klassischer, stachelbeeriger Sauvignon Blanc. Optimal, wenn einem der Sinn nach einem Glas Wein in der Sonne steht. (Schmeckt aber auch bei Schietwetter).</h4>
+                    </div>
+                  </div>
+                  <div class="custom-menu-item">
+                    <div class="custom-menu-item-details">
+                      <div class="custom-menu-item-title"><h3 class="custom-secondary-font text-transform-none font-weight-semibold text-4 mb-0">Weißweinschorle Wilde Lodi - über Geile Weine
+		      </h3></div>
+                      <div class="mx-3 mb-2 opacity-4"></div>
+                    </div>
+                    <div class="custom-menu-item-desc">
+                      <h4 class="text-2 line-height-4">Spritzig, pfiffig, gut gekühlt, direkt aus der Glasbuddel, nur 7% Alkohol, vegan. DAS Getränk für den Jahrhundertsommer 2019!
+		      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+	    </div>
 
+	    <!--
+            <div class="container-fluid px-0">
+              <div class="row">
+                <div class="col">
+                  <div class="custom-instagram-feed bg-dark">
+                    <div class="custom-instagram-feed-title">
+                      <h2 class="text-color-light font-weight-semibold line-height-5 text-5 mb-2">FOLLOW US ON INSTAGRAM</h2>
+                      <a href="#" class="font-weight-semibold text-3">@lodisape</a>
+                    </div>
+                    <div class="custom-intagram-feed-content">
+                      <div id="instafeedCarouselDemoBarber" class="owl-carousel owl-instagram manual"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>                    
+	    -->
+          </section>
+
+	  <footer id="footer" class="border-0 bg-dark mt-0">
+	    <div class="container-fluid px-0">
+	      <div class="row">
+		<div class="col-lg-4" id="amel_col">
+		  <img id="amel" src="img/demos/barber/others/amel.jpg" alt="Picture of Amely"/>
+		</div>
+		<div class="col-lg-4 px-0">
+		  <div class="card bg-secondary border-0 h-100">
+		    <div class="card-body text-center p-5 my-3">
+		      <h2 class="font-weight-semibold text-color-light line-height-1 text-15 ls-0 mb-3">LODIS APE</h2>
+		      <hr class="bg-primary mt-5 mb-4">
+		      <ul class="list list-unstyled text-color-light font-weight-semibold custom-fs-1 py-2 m-0">
+			<li>Jarrestraße 50D</li>  
+			<li>22303 Hamburg</li>
+			<li class="mb-0"><a href="mailto:lodi@lodis-ape.com" class="text-color-light">lodi@lodis-ape.com</a></li>
+		      </ul>
+		      <hr class="bg-primary mt-4 mb-4">
+		      <h3 class="text-color-dark font-weight-bold custom-tertiary-font text-5 mb-3">RESERVATION? CALL US</h3>
+		      <a href="tel:+491729799311" class="text-color-light custom-primary-font font-weight-bold text-12">+ 49 172 97 99 311</a>
+		    </div>
+		  </div>
+		</div>
 		
-		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
-		
-		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
+		<div class="col-lg-4 px-0 d-flex align-items-center">
+		  <div class="w-100 p-5 mx-3 my-5">
+		    <h3 class="text-color-primary font-weight-semibold text-9 mb-3">KONTAKT</h3>
+		    <h2 class="font-weight-semibold pb-3 mb-4">WIR FREUEN UNS AUF SIE </h2>
+		    <form id="contactForm" class="contact-form form-style-4 form-errors-light custom-form-style-1" action="php/contact-form.php" method="POST">
+		      <input type="hidden" value="Contact Form" name="subject" id="subject">
+		      <div class="form-group col-lg-12 ml-auto my-0">
+			<div class="contact-form-success alert alert-success d-none" id="contactSuccess">
+			  Message has been sent to us.
+			</div>
+			<div class="contact-form-error alert alert-danger d-none" id="contactError">
+			  Error sending your message.
+			  <span class="mail-error-message text-1 d-block" id="mailErrorMessage"></span>
+			</div>
+		      </div>
+		      <div class="form-row">
+			<div class="form-group col-lg-6">
+			  <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control py-2" placeholder="Name" name="name" id="name" required>
+			</div>
+			<div class="form-group col-lg-6">
+			  <input type="text" value="" data-msg-required="Please enter your phone number." maxlength="100" class="form-control py-2" placeholder="Phone" name="phone" id="phone" required>
+			</div>
+		      </div>
+		      <div class="form-row">
+			<div class="form-group col">
+			  <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control py-2" placeholder="E-mail" name="email" id="email" required>
+			</div>
+		      </div>
+		      <div class="form-row">
+			<div class="form-group col">
+			  <textarea maxlength="5000" data-msg-required="Please enter your message." rows="4" class="form-control" placeholder="Message" name="message" id="message" required></textarea>
+			</div>
+		      </div>
+		      <input type="submit" value="SEND" class="custom-btn-style-1 btn btn-dark font-weight-bold text-uppercase btn-px-5 py-3" data-loading-text="Loading...">
+		    </form>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+		  
+	    <div class="footer-copyright bg-dark py-5">
+	      <div class="container py-2">
+		<div class="row py-4">
+		  <div class="col-12 text-center dsgvo">
+		    <a href="impressum.html">Impressum</a>
+		    <a href="dsgvo.html">Datenschutzerklärung</a>
+		  </div>
+		  <div class="col-12 text-center">
+		    <p class="text-color-light font-weight-light opacity-4 mb-0">Copyrights © 2019 All Rights Reserved Amely Heincke</p>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+	  </footer>
+	</div>
+
+	<!-- Vendor -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+	<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+	<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+	<script src="vendor/popper/umd/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/common/common.min.js"></script>
+	<script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+	<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+	<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+	<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+	<script src="vendor/isotope/jquery.isotope.min.js"></script>
+	<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+	<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="vendor/vide/jquery.vide.min.js"></script>
+	<script src="vendor/vivus/vivus.min.js"></script>
+	<script src="vendor/instafeed/instafeed.min.js"></script>
 	
-
-
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
-			ga('create', 'UA-12345678-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		 -->
-
-
-	</body>
+	<!-- Theme Base, Components and Settings -->
+	<script src="js/theme.js"></script>
+	
+	<!-- Current Page Vendor and Views -->
+	<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	
+	<!-- Current Page Vendor and Views -->
+	<script src="js/views/view.contact.js"></script>
+	
+	<!-- Demo -->
+	<script src="js/demos/demo-barber.js"></script>
+	
+	<!-- Theme Custom -->
+	<script src="js/custom.js"></script>
+	
+	<!-- Theme Initialization Files -->
+	<script src="js/theme.init.js"></script>
+	
+	<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+	     <script>
+	       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	       
+	       ga('create', 'UA-12345678-1', 'auto');
+	       ga('send', 'pageview');
+	     </script>
+	     -->
+      </div>
+    </div>
+  </body>
 </html>
